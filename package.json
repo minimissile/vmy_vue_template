@@ -12,6 +12,7 @@
     "docs:build": "vuepress build docs",
     "commit": "git-cz"
   },
+  "repository": "https://github.com/minimissile/vmy_vue_template.git",
   "dependencies": {
     "ali-oss": "^6.6.0",
     "axios": "^0.19.2",
