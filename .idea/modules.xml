@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../ldcx-h5-union/.idea/ldcx-h5-union.iml" filepath="$PROJECT_DIR$/../ldcx-h5-union/.idea/ldcx-h5-union.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/vue_template.iml" filepath="$PROJECT_DIR$/.idea/vue_template.iml" />
+    </modules>
+  </component>
+</project>

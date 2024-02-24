@@ -1,0 +1,14 @@
+//! 全局公用的类名，直接在标签上引用
+
+// 清除浮动
+.clearfix {
+  zoom: 1;
+  &:after {
+    content: "";
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+  }
+}

@@ -1,0 +1,30 @@
+// 文字超出。。。
+.no-wrap() {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+// 多行超出。。。
+.no-wrap-line(@line:2) {
+  word-break: break-all;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: @line;
+  -webkit-box-orient: vertical;
+}
+
+// 扩充点击区域
+.extend-click() {
+  position: relative;
+  &:before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+  }
+}
+
