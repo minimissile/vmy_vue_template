@@ -1,0 +1,1 @@
+vmy_vue_template
