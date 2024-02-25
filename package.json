@@ -1,7 +1,9 @@
 {
   "name": "vmy_vue_template",
-  "version": "0.1.3",
+  "version": "0.1.6",
   "private": false,
+  "description": "Vue project basic template (built based on **vue-cli** v4.2.0)",
+  "author": "minimissile",
   "scripts": {
     "dev": "vue-cli-service serve",
     "lint": "vue-cli-service lint",
@@ -12,7 +14,8 @@
     "docs:build": "vuepress build docs",
     "commit": "git-cz"
   },
-  "repository": "https://github.com/minimissile/vmy_vue_template.git",
+  "license": "LGPL-3.0",
+  "repository": "https://github.com/minimissile/vmy_vue_template",
   "dependencies": {
     "ali-oss": "^6.6.0",
     "axios": "^0.19.2",
@@ -38,6 +41,9 @@
     "less-loader": "^5.0.0",
     "vue-template-compiler": "^2.6.11",
     "vuepress": "^1.4.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
   },
   "eslintConfig": {
     "root": true,
